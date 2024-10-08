@@ -1,0 +1,106 @@
+body{
+    font-family:courier new;
+    padding-top: 100px;
+    margin:0;
+    
+ }
+ 
+ @media screen and (min-width: 480px) {
+   body {
+     background-color: white;
+   }
+ }
+ 
+ header{
+   font-size:35px;
+   display:block;
+   padding:10px;
+   border:2px solid rgb(182, 159, 159);
+ }
+ 
+ #navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%; /* Make the navbar span the entire width */
+    background-color: #333; /* Optional: Background color for the navbar */
+    color: white; /* Optional: Text color */
+    padding: 10px; /* Optional: Padding inside the navbar */
+    z-index: 1000; /* Ensures it stays on top of other content */
+}
+ 
+#navbar ul {
+    list-style-type: none; /* Remove bullets */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    overflow: hidden; /* Clear floats */
+}
+
+#navbar li {
+    display: inline; /* Display items in a line */
+    margin-right: 15px; /* Space between items */
+}
+
+#navbar a {
+    color: white; /* Text color */
+    text-decoration: none; /* Remove underline */
+}
+ 
+ main{
+   display:block;
+ }
+ 
+ #main-doc{
+ position:absolute;
+ padding:0px;
+ }
+ 
+ .main-section header{
+    font-weight:bold;
+   font-size:27px;
+   border:none;
+   color:black;
+   display:inline-block;
+   margin-left:70px;
+   background-color:rgb(230, 225, 225);
+ }
+ 
+ .main-section p{
+   margin-left:20px;
+ }
+ 
+ article{
+   padding:10px;
+   display:block;
+ }
+ 
+ p{
+   display:block;
+   margin-block-start:1em;
+   margin-block-end:1em;
+   margin-inline-star:0px;
+   margin-inline-end:0px;
+ }
+ 
+ .second-p{
+   font-weight:bold;
+   font-size:18px;
+ }
+ 
+ code{
+   display:block;
+   background-color:rgb(218, 211, 211);
+   font-size:15px;
+   text-align:center;
+ }
+ 
+ .main-section ul{
+   padding-left:40px;
+ }
+ 
+ h3{
+   display:block;
+   padding:10px;
+ }
+ 
+ 
